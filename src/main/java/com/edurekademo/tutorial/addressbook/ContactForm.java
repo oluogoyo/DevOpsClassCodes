@@ -76,7 +76,7 @@ public class ContactForm extends FormLayout {
      */
     public void save(Button.ClickEvent event) {
         try {
-            // Commit the fields from UI to DAO
+            // Commit the fields from UI to DAO (very important )
             formFieldBindings.commit();
 
             // Save DAO to backend with direct synchronous service API
