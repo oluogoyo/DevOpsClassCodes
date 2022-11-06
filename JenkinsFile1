@@ -3,8 +3,8 @@ new commit  pipeline{
         jdk 'myjava'
         maven 'mymaven131'
     }
-    //more commits on the file
-    //commit on github-- new one
+    //more commits on the file yes
+    //commit on github-- new one yes
     agent any
     new ctsage added
     stages{
